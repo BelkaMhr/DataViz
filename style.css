@@ -1,0 +1,119 @@
+@font-face {
+    font-family: Mediovintage;
+    src: url(./fonts/MediovintageItalic-YzAPa.otf);
+  }
+
+  @font-face {
+    font-family: Boldena;
+    src: url(./fonts/BoldenaBold-VGjmz.ttf);
+  }
+  * {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: "Roboto";
+}
+
+.logo a {
+    font-family: Mediovintage, sans-serif;
+    font-size: 2rem;
+    text-decoration: none;
+    color: #fff;
+}
+
+.navbar li {
+    font-family: Boldena, sans-serif; 
+}
+
+.mentions {
+    text-align: center;
+    font-size: 3rem;
+}
+
+header {
+    background-color: #220055;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h2 {
+    font-family: Boldena, sans-serif;
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+h1 {
+    font-family: Boldena, sans-serif;
+}
+
+p {
+    font-size: 1.75rem;
+    line-height: 2rem;
+    font-weight: 400;
+}
+
+.logo img {
+    max-width: 150px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+section {
+    padding: 40px;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    background-image: url(./img/Cinema.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 50vh;
+  } 
+  
+  .hero .content {
+    width: 30%;
+  }
+  .hero .content h1 {
+    font-size: 4.25rem;
+    margin-bottom: 2rem;
+  }
+  .hero .content .button {
+    background-color: #220055;
+    color: white;
+    padding: 1rem 1.5rem;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  .hero .content .button:hover {
+    background-color: #220055;
+    opacity: 0.8;
+    transition: opacity 0.3s ease-in-out;
+  }
+#movie-chart {width: auto; height: 500px;
+}
+g text{
+    fill: white;
+  }
