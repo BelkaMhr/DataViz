@@ -43,6 +43,28 @@ header {
     align-items: center;
 }
 
+.card {
+  width: 40%;
+}
+
+.container {
+  border-radius: 25px;
+  background-color: #220055;
+  padding: 20px 32px;
+  margin-top: 135px;
+}
+
+.interogation {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.courrier {
+  display: flex;
+  position: center;
+  justify-content: space-evenly;
+}
+
 h2 {
     font-family: Boldena, sans-serif;
     font-size: 3rem;
